@@ -32,8 +32,6 @@ while lives>0 and number_of_l!=0:
     print(actual_number_of_l)
     if ckeck_exist <= 0:
         lives-=1
-    #print("de continuat")
-    #lives-=1
 if lives == 0:
     print(f"You lose: {list_of_char}")
 elif number_of_l==0:
